@@ -7,9 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
     <title>Homepage</title>
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg" style="background-color: #6FA23C;">
@@ -69,22 +73,26 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="container mx-auto my-3 ">
+      <div class="container mx-auto my-3 justify-content-center">
             <div class="row">
                 <div class="col">
-                    <h3>Featured Products</h3>
+                    <h3 class="animate__backInLeft">Featured Products</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <div class="container d-flex flex-column justify-content-centre">
-                        <img class="object-fit-contain" src="images/OrcishBowmasters.jpg" alt="" height="200px" width="auto">
+                    <a href="product.html">
+                        <img class="object-fit-contain" src="images/OrcishBowmasters.jpg" alt="" height="auto" width="140px">
+                    </a>
                         <button type="button" class="btn btn-primary my-2">Add To Cart</button>
                     </div>
                 </div>
                 <div class="col">
                     <div class="container d-flex flex-column justify-content-centre">
-                        <img class="object-fit-contain" src="images/SheoldredTheApocalypse.jpg" alt="" height="200px" width="auto">
+                        <a href="product.html">
+                            <img class="object-fit-contain" src="images/SheoldredTheApocalypse.jpg" alt="" height="auto" width="140px">
+                        </a>
                         <button type="button" class="btn btn-primary my-2">Add To Cart</button>
                     </div>
                 </div>
@@ -92,13 +100,17 @@
             <div class="row">
                 <div class="col">
                     <div class="container d-flex flex-column justify-content-centre">
-                        <img class="object-fit-contain" src="images/OrcishBowmasters.jpg" alt="" height="200px" width="auto">
-                        <button type="button" class="btn btn-primary my-2">Add To Cart</button>
+                    <a href="product.html">
+                        <img class="object-fit-contain" src="images/OrcishBowmasters.jpg" alt="" height="auto" width="140px">
+                    </a>
+                        <button type="button" class="btn btn-primary my-2 ">Add To Cart</button>
                     </div>
                 </div>
                 <div class="col">
                     <div class="container d-flex flex-column justify-content-centre">
-                        <img class="object-fit-contain" src="images/SheoldredTheApocalypse.jpg" alt="" height="200px" width="auto">
+                        <a href="product.html">
+                            <img class="object-fit-contain" src="images/SheoldredTheApocalypse.jpg" alt="" height="auto" width="140px">
+                        </a>
                         <button type="button" class="btn btn-primary my-2">Add To Cart</button>
                     </div>
                 </div>
@@ -110,19 +122,25 @@
     <div class="container mx-auto my-4">
         <div class="row">
             <div class="col">
-                <h3>Featured Articles</h3>
+                <h3 class="animate__backInLeft">Featured Articles</h3>
             </div>
         </div>
+        <div class="">
         <div class="row">
             <div class="col">
                 <div class="container">
-                    <img src="images/DMU-Banner.jpg" alt="" height="auto" width="160px">
+                    <a href="article.html">
+                    <img src="images/DMU-Banner.jpg" alt="" height="auto" width="160px" >
+                </a>
                     <p> Dominaria United Standard Guide</p>
+
                 </div>
             </div>
             <div class="col">
                 <div class="container">
+                <a href="article.html">
                     <img src="images/DSM-Banner.jpg" alt="" height="auto" width="160px">
+                </a>
                     <p> Dominaria United Standard Guide</p>
                 </div>
             </div>
@@ -130,19 +148,23 @@
         <div class="row">
             <div class="col">
                 <div class="container">
+                    <a href="article.html">
                     <img src="images/LCI-Banner.jpg" alt="" height="auto" width="160px">
+                </a>
                     <p> Lost Caverns of Ixalan Standard Guide</p>
                 </div>
             </div>
             <div class="col">
                 <div class="container">
+                    <a href="article.html">
                     <img src="images/KND-Banner.jpg" alt="" height="auto" width="160px">
+                </a>
                     <p> Kamigawa Neon Dynasty Standard</p>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
 
     <script scr="node-modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
